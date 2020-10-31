@@ -14,4 +14,6 @@ allure-robotframework = "*"
 python_version = "3.8"
 
 [scripts]
-test-report =  "robot --listener allure_robotframework;/set/your/path/here ./specs"
+run-tests-allure =  "robot --listener allure_robotframework ./specs"
+run-tests = "robot specs"
+run-tests-oldreport = "robot -d others/evidences specs"
