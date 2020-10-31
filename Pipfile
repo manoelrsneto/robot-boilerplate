@@ -8,6 +8,10 @@ verify_ssl = true
 [packages]
 robotframework = "*"
 robotframework-appiumlibrary = "*"
+allure-robotframework = "*"
 
 [requires]
 python_version = "3.8"
+
+[scripts]
+test-report =  "robot --listener allure_robotframework;/set/your/path/here ./specs"
