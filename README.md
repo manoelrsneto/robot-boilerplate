@@ -39,7 +39,7 @@ Resources são os arquivos que servem de suporte para os test-cases escritos e c
 ## Arquitetura de folders:
 
 ```
-credcesta-mobile-robot
+robot-boilerplate
     ├── apps
     |       ├── app.apk
     |       └── app.ipa
